@@ -1,3 +1,3 @@
 # ink_calculator
 
-A new Flutter project.
+It's a calculator to know how much discharge can do a printhead.
