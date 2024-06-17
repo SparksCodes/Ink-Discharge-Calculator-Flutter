@@ -1,0 +1,48 @@
+name: ink_calculator
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  image_path: "assets/icon/gotas.png"
+  
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - lib/assets/drippinkLogo.png
+    - lib/assets/iniciales.png
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: fonts/Montserrat-Medium.ttf
+          style: normal
+          weight: 400
+        - asset: fonts/Montserrat-Italic.ttf
+          style: italic
+          weight: 400
+        - asset: fonts/Montserrat-Bold.ttf
+          style: normal
+          weight: 700
+        - asset: fonts/Montserrat-ExtraBold.ttf
+          style: normal
+          weight: 900
+  
+          
