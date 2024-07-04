@@ -60,7 +60,7 @@ class _BodyComponentsState extends State<BodyComponents> {
         Center(
           child: SelectRow(
             mainTitle: 'Size width design',
-            units: 'mm',
+            units: 'cm',
             selectedValue: desingSizeWidthSeleted,
             listValues: designSize,
             onChanged: (num? newValue) {
@@ -73,7 +73,7 @@ class _BodyComponentsState extends State<BodyComponents> {
         Center(
           child: SelectRow(
             mainTitle: 'Size height design',
-            units: 'mm',
+            units: 'cm',
             selectedValue: desingSizeHeightSeleted,
             listValues: designSize,
             onChanged: (num? newValue) {
